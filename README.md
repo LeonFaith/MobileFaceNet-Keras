@@ -26,3 +26,4 @@ At first I did not finish the data preprocessing step and use parts of the proce
 ## Reference  
 (1) Original paper: https://arxiv.org/abs/1804.07573  
 (2) The idea of the implementation of model structure is from MobileNet v2: https://github.com/xiaochus/MobileNetV2  
+(3) The implementation of ArcFace loss (InsightFace loss) is from: https://github.com/ewrfcas/Machine-Learning-Toolbox/blob/127d6e5d336614d1efb21e78865501435cdb7b8b/loss_function/ArcFace_loss.py  
