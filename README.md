@@ -24,4 +24,5 @@ At first I did not finish the data preprocessing step and use parts of the proce
 ## 3. Improvement for training step in progress.  
 
 ## Reference  
-(1) The idea of the implementation of model structure is from MobileNet v2: https://github.com/xiaochus/MobileNetV2
+(1) Original paper: https://arxiv.org/abs/1804.07573  
+(2) The idea of the implementation of model structure is from MobileNet v2: https://github.com/xiaochus/MobileNetV2  
