@@ -15,7 +15,7 @@ Keep all the pics, Transfer them to HSV, Add Gaussian noise to them & Add Salt &
 e. n <= 30  
 Drop the folder  
 (3) Crop & resize:  
-a. Use MTCNN to locate the face & Crop it out  
+a. Use MTCNN to locate the face (which has already been aligned) & Crop it out  
 b. Resize the image to 112 x 112  
 
 2. Training Strategy:  
