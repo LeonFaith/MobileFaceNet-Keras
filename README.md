@@ -19,7 +19,7 @@ a. Use MTCNN to locate the face (which has already been aligned) & Crop it out
 b. Resize the image to 112 x 112  
 
 ## 2. Training Strategy  
-At first I did not finish the data preprocessing step and use parts of the processed data for training with 512 as the mini batch size. Since I only bought 1 Nvidia 1080 Ti GPU myself and its memory is not enough when the dataset becomes larger (there is one intermediate layer whose size is related to the number of labels). So for now the training has been paused and I am waiting for upgrading my hardware when I got money.  
+At first I did not finish the data preprocessing step and use parts of the processed data for training with 512 as the mini batch size. Since I only bought 1 Nvidia 1080 Ti GPU myself and its memory is not enough when the dataset becomes larger (there is one intermediate layer whose size is related to the number of labels, while now I have 26928 labels for 6151666 pics, which makes that layer the shape (26928, 26928) in float32 and needs more than 21 Gb space, meaning that even 2 2080 Ti (12 Gb each) is not enough yet). So for now the training has been paused and I am waiting for upgrading my hardware when I got money.  
   
 ## 3. Improvement for training step in progress.  
 
