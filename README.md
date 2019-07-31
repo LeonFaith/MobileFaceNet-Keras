@@ -1,5 +1,5 @@
 # MobileFaceNet-Keras
-A Keras implementation of MobileFaceNet from https://arxiv.org/abs/1804.07573. It is the 1st time I uploaded my own work. If the license or citation is wrong, please inform me and I will change it ASAP. 
+A Keras implementation of MobileFaceNet from https://arxiv.org/abs/1804.07573. It is the 1st time I uploaded my own work. If the license or citation is wrong, please inform me and I will change it ASAP. The Keras model for inference is ~14 Mb, as well as the TensorFlow model in optimized protobuf format, so I might not follow all the details in the original work (should be around 5 Mb). 
   
 1. Data Preprocessing Strategy:  
 (1) Use the celebrity & msra datasets from the Trillion Pairs dataset: http://trillionpairs.deepglint.com/data.  
