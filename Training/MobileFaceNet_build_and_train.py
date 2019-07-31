@@ -27,7 +27,7 @@ m = 72360
 '''Importing the data set'''
 from keras.preprocessing.image import ImageDataGenerator
 
-train_path = '/data/dataset/'
+train_path = '/data/daiwei/dataset/'
 
 train_datagen = ImageDataGenerator(rescale = 1. / 255, validation_split = 0.03)
 
